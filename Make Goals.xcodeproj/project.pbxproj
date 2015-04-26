@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-<<<<<<< HEAD
+
 		9504FAB41ADCE38900336B91 /* TaskList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9504FAB31ADCE38900336B91 /* TaskList.plist */; };
 		9504FAB61ADD0E5C00336B91 /* ViewControllerNaser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9504FAB51ADD0E5C00336B91 /* ViewControllerNaser.swift */; };
-=======
+
 		7035CE031AED387800CBDF55 /* ViewControllerMasih.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7035CE021AED387800CBDF55 /* ViewControllerMasih.swift */; };
->>>>>>> origin/master
+
 		951B9AA61ADBDD7B00AF6D55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951B9AA51ADBDD7B00AF6D55 /* AppDelegate.swift */; };
 		951B9AA81ADBDD7B00AF6D55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951B9AA71ADBDD7B00AF6D55 /* ViewController.swift */; };
 		951B9AAB1ADBDD7B00AF6D55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 951B9AA91ADBDD7B00AF6D55 /* Main.storyboard */; };
@@ -32,12 +32,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-<<<<<<< HEAD
+
 		9504FAB31ADCE38900336B91 /* TaskList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TaskList.plist; sourceTree = "<group>"; };
 		9504FAB51ADD0E5C00336B91 /* ViewControllerNaser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerNaser.swift; sourceTree = "<group>"; };
-=======
+
 		7035CE021AED387800CBDF55 /* ViewControllerMasih.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerMasih.swift; sourceTree = "<group>"; };
->>>>>>> origin/master
+
 		951B9AA01ADBDD7B00AF6D55 /* Make Goals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Make Goals.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		951B9AA41ADBDD7B00AF6D55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		951B9AA51ADBDD7B00AF6D55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -95,12 +95,9 @@
 				951B9AAC1ADBDD7B00AF6D55 /* Images.xcassets */,
 				951B9AAE1ADBDD7B00AF6D55 /* LaunchScreen.xib */,
 				951B9AA31ADBDD7B00AF6D55 /* Supporting Files */,
-<<<<<<< HEAD
 				9504FAB31ADCE38900336B91 /* TaskList.plist */,
 				9504FAB51ADD0E5C00336B91 /* ViewControllerNaser.swift */,
-=======
 				7035CE021AED387800CBDF55 /* ViewControllerMasih.swift */,
->>>>>>> origin/master
 			);
 			path = "Make Goals";
 			sourceTree = "<group>";
@@ -233,11 +230,8 @@
 			files = (
 				951B9AA81ADBDD7B00AF6D55 /* ViewController.swift in Sources */,
 				951B9AA61ADBDD7B00AF6D55 /* AppDelegate.swift in Sources */,
-<<<<<<< HEAD
 				9504FAB61ADD0E5C00336B91 /* ViewControllerNaser.swift in Sources */,
-=======
 				7035CE031AED387800CBDF55 /* ViewControllerMasih.swift in Sources */,
->>>>>>> origin/master
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
