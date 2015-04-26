@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="gHM-5a-64r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="gHM-5a-64r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
@@ -49,10 +49,10 @@
             </objects>
             <point key="canvasLocation" x="388" y="261"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller Masih-->
         <scene sceneID="01a-jA-t8s">
             <objects>
-                <viewController id="j6M-14-UUF" sceneMemberID="viewController">
+                <viewController id="j6M-14-UUF" customClass="ViewControllerMasih" customModule="Make_Goals" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Z0M-Ev-KKh"/>
                         <viewControllerLayoutGuide type="bottom" id="Xmt-kQ-2VR"/>
@@ -60,12 +60,32 @@
                     <view key="view" contentMode="scaleToFill" id="pYw-7F-sKj">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TbH-ZD-2tp">
+                                <rect key="frame" x="140" y="145" width="54" height="26"/>
+                                <state key="normal" title="Change">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnChange:" destination="j6M-14-UUF" eventType="touchUpInside" id="viH-Hy-K0q"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DzU-IZ-sk8">
+                                <rect key="frame" x="297" y="145" width="103" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="lblMessage" destination="DzU-IZ-sk8" id="kkr-IA-i8U"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RDi-Qr-cMI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1156.5" y="-114"/>
+            <point key="canvasLocation" x="1156" y="-114"/>
         </scene>
         <!--View Controller Naser-->
         <scene sceneID="nvg-nw-fQe">
