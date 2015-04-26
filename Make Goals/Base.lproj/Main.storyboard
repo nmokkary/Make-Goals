@@ -67,10 +67,10 @@
             </objects>
             <point key="canvasLocation" x="1156.5" y="-114"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller Naser-->
         <scene sceneID="nvg-nw-fQe">
             <objects>
-                <viewController id="EKY-6M-wx8" sceneMemberID="viewController">
+                <viewController id="EKY-6M-wx8" customClass="ViewControllerNaser" customModule="Make_Goals" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="8Hc-NS-qhQ"/>
                         <viewControllerLayoutGuide type="bottom" id="Rx6-HW-dga"/>
@@ -78,8 +78,30 @@
                     <view key="view" contentMode="scaleToFill" id="2sX-zr-eGr">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="FQ1-2u-4JV">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="64" width="400" height="536"/>
+                                </variation>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="FQ1-2u-4JV"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="FQ1-2u-4JV"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="tableViewTasks" destination="FQ1-2u-4JV" id="sss-Th-r9H"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Y0-7X-qxO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
