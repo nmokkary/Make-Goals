@@ -1,5 +1,5 @@
 //
-//  ViewControllerMasih.swift
+//  ViewControllerDetail.swift
 //  Make Goals
 //
 //  Created by Masih Sadeghi on 4/26/15.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewControllerMasih: UIViewController {
+class ViewControllerDetail: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
